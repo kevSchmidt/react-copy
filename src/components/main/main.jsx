@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 
+import Profile from "./profile/Profile";
+
 class Main extends Component {
   render() {
     return (
       <main style={mainStyle}>
-        <h4>Instagram Main</h4>
+        <Profile />
       </main>
     );
   }
@@ -14,8 +16,7 @@ const mainStyle = {
   height: "100vh",
   fontSize: "3rem",
   display: "flex",
-  alignItems: "center",
-  justifyContent: "center",
+  flexDirection: "column",
   background: "#fafafafa",
 };
 

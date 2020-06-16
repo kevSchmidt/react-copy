@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Header() {
   return (
     <header style={headerStyle}>
-      {/* Icon */}
+      {/*  Logo  */}
       <img src="./images/insta-logo.png" alt="logo" />
 
-      {/* Search Bar */}
+      {/*  Search Bar  */}
       <form>
         <input
           type="text"
@@ -18,7 +18,7 @@ function Header() {
         />
       </form>
 
-      {/* Icons */}
+      {/*  Icons */}
       <div className="nav-icons">
         <FontAwesomeIcon icon="home" className="icon" />
         <FontAwesomeIcon icon="paper-plane" className="icon" />
@@ -35,7 +35,6 @@ const headerStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "space-evenly",
-  borderTop: "1px solid #dddddd",
   borderBottom: "1px solid #dddddd",
 };
 
