@@ -1,9 +1,14 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function Header() {
   return (
     <header style={headerStyle}>
-      {/* LOGO INSTAGRAM */}
+      {/* Icon */}
+      <img src="./images/insta-logo.png" alt="logo" />
+
+      {/* Search Bar */}
       <form>
         <input
           type="text"
@@ -12,15 +17,22 @@ function Header() {
           placeholder="Search"
         />
       </form>
-      {/* ICONS */}
+
+      {/* Icons */}
+      <FontAwesomeIcon icon="home" />
+      <FontAwesomeIcon icon="paper-plane" />
+      <FontAwesomeIcon icon="compass" />
+      <FontAwesomeIcon icon="heart" />
+      <img src="./images/avatar-nav.png" alt="avatar-nav" />
     </header>
   );
 }
 
 // Style
 const headerStyle = {
-  textAlign: "center",
-  padding: "1rem",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "space-around",
 };
 
 export default Header;
