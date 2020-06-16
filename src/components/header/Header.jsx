@@ -6,7 +6,7 @@ function Header() {
   return (
     <header style={headerStyle}>
       {/*  Logo  */}
-      <img src="./images/insta-logo.png" alt="logo" />
+      <img src="./images/insta-logo.png" alt="logo" className="header-logo" />
 
       {/*  Search Bar  */}
       <form>

@@ -1,10 +1,13 @@
 import React, { Component } from "react";
+import ImageBar from "./ImageBar";
+import ProfileInfoContainer from "./ProfileInfoContainer";
 
 class Profile extends Component {
   render() {
     return (
       <section className="profile-section">
-        <h2>Profile section</h2>
+        <ProfileInfoContainer />
+        <ImageBar />
       </section>
     );
   }
