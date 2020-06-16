@@ -3,7 +3,16 @@ import React from "react";
 function Header() {
   return (
     <header style={headerStyle}>
-      <h1>Instagram Header</h1>
+      {/* LOGO INSTAGRAM */}
+      <form>
+        <input
+          type="text"
+          name="search"
+          className="searchBar"
+          placeholder="Search"
+        />
+      </form>
+      {/* ICONS */}
     </header>
   );
 }
