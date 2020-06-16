@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+/* ===== HEADER === */
+
 .searchBar {
   outline: none;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  border-radius: 4px;
+  width: 15rem;
+  font-size: 1.5rem;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.icon {
+  font-size: 1.4rem;
+  margin: 1rem 0.5rem;
 }

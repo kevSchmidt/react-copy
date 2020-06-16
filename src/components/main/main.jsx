@@ -16,7 +16,7 @@ const mainStyle = {
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  background: "#eee",
+  background: "#fafafafa",
 };
 
 export default Main;

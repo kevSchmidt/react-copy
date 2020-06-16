@@ -19,11 +19,13 @@ function Header() {
       </form>
 
       {/* Icons */}
-      <FontAwesomeIcon icon="home" />
-      <FontAwesomeIcon icon="paper-plane" />
-      <FontAwesomeIcon icon="compass" />
-      <FontAwesomeIcon icon="heart" />
-      <img src="./images/avatar-nav.png" alt="avatar-nav" />
+      <div className="nav-icons">
+        <FontAwesomeIcon icon="home" className="icon" />
+        <FontAwesomeIcon icon="paper-plane" className="icon" />
+        <FontAwesomeIcon icon="compass" className="icon" />
+        <FontAwesomeIcon icon="heart" className="icon" />
+        <img src="./images/avatar-nav.png" alt="avatar-nav" className="icon" />
+      </div>
     </header>
   );
 }
@@ -32,7 +34,9 @@ function Header() {
 const headerStyle = {
   display: "flex",
   alignItems: "center",
-  justifyContent: "space-around",
+  justifyContent: "space-evenly",
+  borderTop: "1px solid #dddddd",
+  borderBottom: "1px solid #dddddd",
 };
 
 export default Header;
