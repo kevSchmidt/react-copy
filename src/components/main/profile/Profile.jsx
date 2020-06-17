@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import ImageBar from "./ImageBar";
-import ProfileInfoContainer from "./ProfileInfoContainer";
+import ProfileInfo from "./ProfileInfo";
 
 class Profile extends Component {
   render() {
     return (
       <section className="profile-section">
-        <ProfileInfoContainer />
+        <ProfileInfo />
         <ImageBar />
       </section>
     );

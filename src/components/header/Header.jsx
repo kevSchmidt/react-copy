@@ -24,7 +24,11 @@ function Header() {
         <FontAwesomeIcon icon="paper-plane" className="icon" />
         <FontAwesomeIcon icon="compass" className="icon" />
         <FontAwesomeIcon icon="heart" className="icon" />
-        <img src="./images/avatar-nav.png" alt="avatar-nav" className="icon" />
+        <img
+          src="./images/avatar-nav.png"
+          alt="avatar-nav"
+          className="img-icon"
+        />
       </div>
     </header>
   );

@@ -6,7 +6,10 @@ class Main extends Component {
   render() {
     return (
       <main style={mainStyle}>
+        {/* Profile */}
         <Profile />
+
+        {/* Gallery */}
       </main>
     );
   }

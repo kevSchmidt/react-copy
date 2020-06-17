@@ -4,9 +4,39 @@
 
 ![](./img/model.png)
 
-## Available Scripts
+## Project
 
-In the project directory, you can run:
+```
+Project
+│   README.md
+│   package.json
+|   package-lock.json
+└─── src
+│     │
+│     └─── components
+|     |       └─── icons
+|     |       │      └─── FontAwesomeIcons.jsx
+│     |       └─── header
+│     |       │      └─── Header.jsx
+│     |       └─── main
+│     |              └─── Main.jsx
+│     |              │
+│     |              └─── profile
+│     |              │        └─── Profile.jsx
+│     |              │        └─── ProfileInfo.jsx
+│     |              │        └─── ProfileInfo.text.jsx
+│     |              │        └─── ImageBar.jsx
+│     |              │
+│     |              └─── gallery
+|     |
+|     └─── App.js
+|     └─── index.js
+|     └─── App.css
+|
+└─── public
+       └─── index.html
+       └─── images
+```
 
 ### `npm start`
 

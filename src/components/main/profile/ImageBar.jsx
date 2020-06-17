@@ -4,6 +4,7 @@ class ImageBar extends Component {
   render() {
     return (
       <div className="profile-img-container">
+        {/* Studio */}
         <div className="profile-img">
           <img
             src="./images/profile-img-1.png"
@@ -13,6 +14,7 @@ class ImageBar extends Component {
           <p className="profile-img-title">Studio</p>
         </div>
 
+        {/* 1969 */}
         <div className="profile-img">
           <img
             src="./images/profile-img-2.png"
@@ -22,6 +24,7 @@ class ImageBar extends Component {
           <p className="profile-img-title">1969</p>
         </div>
 
+        {/* Concert */}
         <div className="profile-img">
           <img
             src="./images/profile-img-3.png"
@@ -31,6 +34,7 @@ class ImageBar extends Component {
           <p className="profile-img-title">Concert</p>
         </div>
 
+        {/* Spotify */}
         <div className="profile-img">
           <img
             src="./images/profile-img-4.png"

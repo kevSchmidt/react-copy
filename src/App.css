@@ -29,7 +29,12 @@
 }
 
 .icon {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  margin: 1rem 0.5rem;
+  cursor: pointer;
+}
+
+.img-icon {
   margin: 1rem 0.5rem;
   cursor: pointer;
 }
@@ -39,7 +44,6 @@
 .profile-section {
   margin: 1rem 25rem 2rem 25rem;
   height: 30rem;
-  border: 1px dotted red;
 }
 
 .profile-info-container {
@@ -48,7 +52,6 @@
 
 .profile-info {
   margin-top: 2rem;
-  border: 1px dotted green;
 }
 
 .profile-img-container {
@@ -56,7 +59,7 @@
 }
 
 .avatar {
-  margin: 0.5rem 6rem 5rem 3rem;
+  margin: 0.5rem 5rem 6rem 5rem;
 }
 
 .profile-row-1,
@@ -66,22 +69,53 @@
 }
 
 .noskro {
-  margin-right: 4rem;
-  font-size: 2.3rem;
+  margin-right: 3rem;
+  font-size: 2rem;
 }
 
-.btn {
+.btn-profile {
   font-size: 1.2rem;
+  width: 7rem;
+  padding: 0 0.4rem;
   margin: 0.2rem;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-profile-2 {
+  font-size: 1.2rem;
+  width: 1.7rem;
+  margin: 0.2rem;
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-profile-virgin {
+  font-size: 1.2rem;
+  width: 1.7rem;
+  margin: 0.2rem;
+  border: none;
+  background-color: #fafafa;
+  cursor: pointer;
+}
+
+.strange-btn {
+  vertical-align: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .follower {
-  font-size: 1.2rem;
-  margin-right: 2rem;
+  font-size: 1rem;
+  margin: 1rem 3.8rem 1rem 0;
 }
 
 .info-title {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .info-link {
@@ -91,11 +125,11 @@
 }
 
 .scotch {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 
 .info {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .bold {
@@ -104,11 +138,11 @@
 }
 
 .follower2 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #444;
 }
 
-/* ------ */
+/* Image bar */
 
 .profile-img-container {
   display: flex;
@@ -128,3 +162,5 @@
   margin-top: -0.8rem;
   cursor: pointer;
 }
+
+/* ===== GALLERY === */
