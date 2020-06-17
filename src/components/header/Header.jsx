@@ -34,7 +34,7 @@ function Header() {
 const headerStyle = {
   display: "flex",
   alignItems: "center",
-  justifyContent: "space-evenly",
+  justifyContent: "space-around",
   borderBottom: "1px solid #dddddd",
 };
 
