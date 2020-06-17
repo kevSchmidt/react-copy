@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 class ProfileInfo extends Component {
   render() {
@@ -7,15 +8,26 @@ class ProfileInfo extends Component {
         <div className="profile-row-1">
           <p className="noskro">noskro_lfs</p>
           <button className="btn">Message</button>
-          <button className="btn">user</button>
-          <button className="btn">arrow</button>
+          <button className="btn">
+            <FontAwesomeIcon icon="user" className="icon-profile" />
+          </button>
+          <button className="btn">
+            <FontAwesomeIcon icon="sort-down" className="icon-profile" />
+          </button>
           <button className="btn">...</button>
         </div>
 
         <div className="profile-row-2">
-          <p className="follower">81 Posts</p>
-          <p className="follower">1,794 followers</p>
-          <p className="follower">289 following</p>
+          <p className="follower">
+            {" "}
+            <span className="bold">81</span> Posts
+          </p>
+          <p className="follower">
+            <span className="bold">1,794</span> followers
+          </p>
+          <p className="follower">
+            <span className="bold">289</span> following
+          </p>
         </div>
 
         <div className="profile-row-3">
@@ -36,8 +48,10 @@ class ProfileInfo extends Component {
         </div>
 
         <div className="profile-row-4">
-          <p className="follower">
-            Followed by cap10_sebisto, aure_stg, stxleslowly + 1more
+          <p className="follower2">
+            Followed by{" "}
+            <span className="bold">cap10_sebisto, aure_stg, stxleslowly</span> +
+            1more
           </p>
         </div>
       </div>

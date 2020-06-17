@@ -77,6 +77,7 @@
 
 .follower {
   font-size: 1.2rem;
+  margin-right: 2rem;
 }
 
 .info-title {
@@ -86,6 +87,7 @@
 .info-link {
   color: blue;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .scotch {
@@ -96,7 +98,18 @@
   font-size: 1.3rem;
 }
 
+.bold {
+  font-weight: bold;
+  color: #010101;
+}
+
+.follower2 {
+  font-size: 1.1rem;
+  color: #444;
+}
+
 /* ------ */
+
 .profile-img-container {
   display: flex;
 }
@@ -112,5 +125,6 @@
 
 .profile-img-title {
   font-size: 1.2rem;
+  margin-top: -0.8rem;
   cursor: pointer;
 }
