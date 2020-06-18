@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
+import Data from "./data.json";
 
 import "./components/icons/FontAwesomeIcons";
 
@@ -12,7 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <Main />
+        <Main gallery={Data} />
       </div>
     );
   }

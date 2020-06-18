@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Profile from "./profile/Profile";
+import Gallery from "./gallery/Gallery";
 
 class Main extends Component {
   render() {
@@ -10,6 +11,7 @@ class Main extends Component {
         <Profile />
 
         {/* Gallery */}
+        <Gallery />
       </main>
     );
   }
