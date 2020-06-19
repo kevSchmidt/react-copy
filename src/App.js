@@ -10,7 +10,6 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    console.log(Data);
     return (
       <div className="App">
         <Header />
