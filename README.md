@@ -28,6 +28,8 @@ Project
 │     |              │        └─── ImageBar.jsx
 │     |              │
 │     |              └─── gallery
+|     |                      └─── Gallery.jsx
+|     |                      └─── Nav.jsx
 |     |
 |     └─── App.js
 |     └─── index.js
