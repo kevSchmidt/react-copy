@@ -1,21 +1,20 @@
-import React, { Component } from "react";
+import React from "react";
 
 import Profile from "./profile/Profile";
 import Gallery from "./gallery/Gallery";
 
-class Main extends Component {
-  render() {
-    return (
+const Main = (props) => {
+  return (
+    <React.Fragment>
       <main style={mainStyle}>
         {/* Profile */}
         <Profile />
-
         {/* Gallery */}
-        <Gallery />
+        <Gallery mainData={props.infoData} />
       </main>
-    );
-  }
-}
+    </React.Fragment>
+  );
+};
 
 const mainStyle = {
   height: "100vh",

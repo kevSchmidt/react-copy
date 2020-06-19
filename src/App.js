@@ -10,10 +10,11 @@ import "./App.css";
 
 class App extends Component {
   render() {
+    console.log(Data);
     return (
       <div className="App">
         <Header />
-        <Main gallery={Data} />
+        <Main infoData={Data} />
       </div>
     );
   }

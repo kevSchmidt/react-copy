@@ -146,6 +146,7 @@
 
 .profile-img-container {
   display: flex;
+  margin-top: 5px;
 }
 
 .profile-img {
@@ -159,14 +160,14 @@
 
 .profile-img-title {
   font-size: 1.2rem;
-  margin-top: -0.8rem;
+  margin-top: -1rem;
   cursor: pointer;
 }
 
 /* ===== GALLERY === */
 
 .gallery-section {
-  margin: 1rem 25rem;
+  margin: 0 25rem;
 }
 
 .gallery-nav {
@@ -183,4 +184,9 @@
 
 .gallery-images {
   border: red 1px dotted;
+}
+
+.inner-img {
+  margin: 0.7rem 1rem;
+  width: 21rem;
 }
