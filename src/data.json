@@ -2,31 +2,31 @@
   {
     "id": 1,
     "name": "gallery-img-1",
-    "img": "./react-copy/images/gallery-1.png"
+    "img": "./images/gallery-1.png"
   },
   {
     "id": 2,
     "name": "gallery-img-2",
-    "img": "./react-copy/images/gallery-2.png"
+    "img": "./images/gallery-2.png"
   },
   {
     "id": 3,
     "name": "gallery-img-3",
-    "img": "./react-copy/images/gallery-3.png"
+    "img": "./images/gallery-3.png"
   },
   {
     "id": 4,
     "name": "gallery-img-4",
-    "img": "./react-copy/images/gallery-4.png"
+    "img": "./images/gallery-4.png"
   },
   {
     "id": 5,
     "name": "gallery-img-5",
-    "img": "./react-copy/images/gallery-5.png"
+    "img": "./images/gallery-5.png"
   },
   {
     "id": 6,
     "name": "gallery-img-6",
-    "img": "./react-copy/images/gallery-6.png"
+    "img": "./images/gallery-6.png"
   }
 ]
